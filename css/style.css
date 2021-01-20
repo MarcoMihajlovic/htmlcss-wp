@@ -21,12 +21,6 @@ main {
   padding-bottom: 2%;
 }
 
-main .container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 ul {
   list-style: none;
 }
@@ -122,7 +116,7 @@ footer {
 
 .container_left {
   width: 100%;
-  height: 25%;
+  height: 50%;
   background-image: url(../img/img-4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -145,7 +139,7 @@ footer {
 
 .container_center {
   width: 100%;
-  height: 25%;
+  height: 50%;
   background-image: url(../img/banner-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -165,7 +159,7 @@ footer {
 
 .container_right {
   width: 100%;
-  height: 25%;
+  height: 50%;
   background-image: url(../img/img-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
